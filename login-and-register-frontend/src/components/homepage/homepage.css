@@ -1,14 +1,16 @@
 .homepage {
     display: flex;
     flex-direction: column;
+   
     align-items: center;
     justify-content:center;
-    width: 50vw;
-    height: 50vh;
+    width: 20vw;
+    height: 80vh;
     border-radius: 20px;
     box-shadow: 0 0 15px 5px grey;
-    background: white;
-    position: relative
+    background:antiquewhite;
+    /* position: relative */
+    margin-left: -70%;
 }
 
 .homepage > .button {
@@ -21,4 +23,9 @@
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+}
+
+h1{
+    margin-left: 50px;
+    margin-bottom: 60px;
 }
